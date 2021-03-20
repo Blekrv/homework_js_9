@@ -1,0 +1,55 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.display{
+    display: none;
+}
+.task4{
+    display: flex;
+    border: 3px solid rgb(151, 151, 243);
+}
+.hold{
+    padding: 10px;
+    position: relative;
+}
+
+.list ul{
+    list-style-type: none;
+    list-style-position: inside;
+}
+.list ul li{
+    /* margin: 5px 0; */
+    padding: 10px;
+    background-color: rgb(151, 151, 243);
+}
+.toggle{
+    display: block !important;
+}
+.hold article{
+    display: none;
+}
+.hovered{
+    background-color: rgb(92, 92, 245) !important;
+}
+.task5 article{
+    position: relative;
+    margin: 10px 0;
+}
+.task5 button{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.task6{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto
+}
+.task6 progress{
+    width: 100%;
+    height: 40px;
+}
